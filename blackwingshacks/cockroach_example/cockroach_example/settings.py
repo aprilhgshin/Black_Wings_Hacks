@@ -25,7 +25,7 @@ SECRET_KEY = '#9c4!s%nbof%17()adhv!d^jgyie&ll!6wv098%4-5+!p=z)v7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1']
 
 
 # Application definition
@@ -79,11 +79,11 @@ DATABASES = {
         #'ENGINE': 'django.db.backends.sqlite3',
         #'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE' : 'django_cockroachdb',
-        'PORT' : 64897,
+        'PORT' : 53586,
         'USER' : 'member',
         'PASSWORD': 'blackwings',
         'HOST' : 'localhost',
-        'NAME' : 'user_info',
+        'NAME' : 'bank',
     }
 }
 
