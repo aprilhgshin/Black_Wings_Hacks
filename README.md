@@ -3,7 +3,8 @@
 ### Django with default sqlite: 
 Inside the blackwingshacks directory, the user_data directory is a demo djanga directory that works with sqlite. 
 
-For demonstration, feel free to manually add a few entries through python3 manage.py shell. 
+For demonstration, feel free to manually add a few entries after the command 
+$ python3 manage.py shell
 Then, if you run $python3 manage.py runserver and navigate to user_data on the webpage, you'll see the user input example displayed. 
 
 
