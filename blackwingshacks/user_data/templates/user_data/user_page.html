@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>User Page</title>
+  </head>
+  <body>
+    <h1>User Page</h1>
+    <div class = "employees">
+      {% for employee in employees %}
+      <div class="user">
+        <h2><a href = "#">{{employee.email}}</a></h2>
+        <p>{{employee.baseSalary}}</p>
+        <p>{{employee.company}}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>
