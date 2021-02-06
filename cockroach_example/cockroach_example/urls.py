@@ -19,7 +19,7 @@ from django.conf.urls import url
 
 urlpatterns = [
     url('admin/', admin.site.urls),
-    url(r'^userPage/$', views.user_page), #about url    
+    url(r'^userPage/$', views.user_page), #user page url    
     url(r'^about/$', views.about), #about url
     url(r'^$', views.homepage) # homepage url
 ]
