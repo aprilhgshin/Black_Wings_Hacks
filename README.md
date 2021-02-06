@@ -16,7 +16,9 @@ and navigate to *user_data* on the webpage, you'll see the user input example di
 
 ### Django with CockroachDB (in progress)
 *cockroach_example* directory is an app set up to work with CockroachDB.
-Like above, *blackwingshacks* directory is the root directory. *cockroach_example* is the app. It also has the same model as in *user_data* with the fields mentioned in the doc. 
+ It also has the same model as in *user_data* with the fields mentioned in the doc. 
+
+If you run the web page, you can navigate to home, about, and user page.
 
 I followed the steps in https://www.cockroachlabs.com/docs/stable/build-a-python-app-with-cockroachdb-django.html to set up cockroachDB and connect with django.
 
@@ -26,4 +28,3 @@ $ cockroach demo
 ```
 (this is explained in detail in the link)
 
-The problem I'm having now is that the command *makemigrations* runs indefinitely. There might be an issue with connecting to the cockroachdb server. 
