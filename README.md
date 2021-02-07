@@ -44,11 +44,11 @@ Modify _settings.py_ in the _cockroach_example_ directory to match the port numb
 
 Open a _new_ tab in your terminal, navigate to the _cockroach_example_ directory, and run the following commands: 
 
-'''
+```
 $python3 manage.py makemigrations cockroach_example
 $python3 manage.py migrate
 $python3 manage.py runserver
-'''
+```
 
 (Note: this is specified to python version 3)
 
