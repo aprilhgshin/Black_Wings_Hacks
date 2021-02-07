@@ -1,12 +1,20 @@
 import psycopg2
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import plotly.express as px  # (version 4.7.0)
+import plotly.graph_objects as go
 
-# Connection parameters, yours will be different
+import dash  # (version 1.12.0) pip install dash
+import dash_core_components as dcc
+import dash_html_components as html
+from dash.dependencies import Input, Output
+
+# Parameters for connection 
 param_dic = {
-    "host"      : "127.0.0.1",
-    "database"  : "test",
+    "host"      : "localhost",
+    "database"  : "testing",
     "user"      : "postgres",
     "password"  : "mMhatrARMIE12$"
 }
@@ -23,7 +31,6 @@ def connect(params_dic):
         sys.exit(1) 
     print("Connection successful")
     return conn
-
 
 def postgresql_to_dataframe(conn, select_query, column_names):
     """
@@ -47,20 +54,11 @@ def postgresql_to_dataframe(conn, select_query, column_names):
 
 
     # Connect to the database
+# Connect to the database
 conn = connect(param_dic)
 
-column_names = ["id","email","company","title","education","yearsExp","baseSalary","bonuses","gender","race"]
+column_names = ["id","email","company","title","education","yearsExp","baseSalary","bonuses","gender","race", "state"]
 # Execute the "SELECT *" query
-df = postgresql_to_dataframe(conn, "select * from users_revised", column_names)
-tb1 = df[(df['gender']=='male') & (df['title']=='Associate Software Engineer')]
-tb2 = df.sort_values('yearsExp')
+df = postgresql_to_dataframe(conn, "select * from cockroach_example_user", column_names)
 
-plt.figure()
-
-plt.scatter(df['baseSalary'], df['yearsExp'])  
-
-plt.ylabel("Years of Experience")
-plt.xlabel("base salary")
-plt.title("base salary VS years of experience ")
-
-plt.show()
+conn.close()
