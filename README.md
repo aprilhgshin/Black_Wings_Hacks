@@ -29,11 +29,12 @@ ClosingTheGapIn.Tech
 PayItForward.Online
 
 
-### For DEVELOPERS
+## For DEVELOPERS
 #### Django with CockroachDB
 
-The *cockroach_example* directory is set up to work with CockroachDB and organize user data.
-In order to run the django application, make sure to have the following installed: 
+The *cockroach_example* directory is set up to work with CockroachDB, organize user input data, and, when complete, run the gapShift web application.
+Refer to _model.py_ in the _cockroach_directory_ for details on user input data. This framework is designed to have a home, about, and user page.
+In order to run the web application, make sure to have the following installed: 
 
 - psycopg2-binary
 - django-cockroachdb
