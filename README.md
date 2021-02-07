@@ -25,6 +25,7 @@ We would like to import/scrape any existing databases that have salary informati
 
 ## Domain names for GapShift:
 ClosingTheGapIn.Tech
+
 PayItForward.Online
 
 
