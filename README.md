@@ -39,7 +39,7 @@ BreakingTheGlassDomain.Space
 
 ### Running the React App
 
-Navigate to the client directory and run: 
+Navigate to the _client_ directory and run: 
 ```
 npm i
 npm start
