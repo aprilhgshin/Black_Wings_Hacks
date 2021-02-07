@@ -5,6 +5,22 @@
     <title>userPage</title>
   </head>
   <body>
-    <hr>User Page</hr>
+    <h1>User Data</h1>
+    <div class = "users">
+      {% for user in users %}
+      <div class="user">
+        <h2><a href = "#">{{user.email}}</a></h2>
+        <p>{{user.baseSalary}}</p>
+        <p>{{user.company}}</p>
+        <p>{{user.title}}</p>
+        <p>{{user.education}}</p>
+        <p>{{user.yearsExp}}</p>
+        <p>{{user.baseSalary}}</p>
+        <p>{{user.bonuses}}</p>
+        <p>{{user.gender}}</p>
+        <p>{{user.race}}</p>
+      </div>
+      {% endfor %}
+    </div>
   </body>
 </html>
