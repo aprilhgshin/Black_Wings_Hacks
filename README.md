@@ -32,7 +32,6 @@ JustKeepingItReal.Online
 
 BreakingTheGlassDomain.Space
 
-ourlunar.space
 
 ## For DEVELOPERS
 
