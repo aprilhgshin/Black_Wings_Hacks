@@ -76,14 +76,14 @@ WSGI_APPLICATION = 'cockroach_example.wsgi.application'
 
 DATABASES = {
     'default': {
-        #'ENGINE': 'django.db.backends.sqlite3',
-        #'NAME': BASE_DIR / 'db.sqlite3',
-        'ENGINE' : 'django_cockroachdb',
-        'PORT' : 53586,
-        'USER' : 'member',
-        'PASSWORD': 'blackwings',
-        'HOST' : 'localhost',
-        'NAME' : 'bank',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+        #'ENGINE' : 'django_cockroachdb',
+        #'PORT' : 53586,
+        #'USER' : 'member',
+        #'PASSWORD': 'blackwings',
+        #'HOST' : 'localhost',
+        #'NAME' : 'bank',
     }
 }
 

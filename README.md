@@ -12,3 +12,9 @@ You may have to modify *settings.py* in *cockroach_example* directory to match y
 $ cockroach demo
 ```
 (this is explained in detail in the link)
+
+### Connection Script
+
+connect.py connects the database to the Django framework and generates the charts.
+I haven't pushed to the main repo because of my database is not cockroach but is compatiable with cockroach (will do this when I get up around 8ish)
+Everything works. 
