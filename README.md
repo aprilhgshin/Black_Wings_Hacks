@@ -14,4 +14,15 @@ You may have to modify _settings.py_ in _cockroach_example_ directory to match y
 $ cockroach demo
 ```
 
+To Run The Code
+
+1. Clone this repo
+
+```
+$ cd src
+$ npm i
+$ npm start
+
+```
+
 (this is explained in detail in the link)
