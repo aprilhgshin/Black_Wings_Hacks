@@ -3,7 +3,6 @@ from django.db import models
 '''
 The User class is a Model containing instances for each user input as well unique identification:
 
-id          - unique integer primary key assigned to each user
 email       - string value
 company     - string value of current company of user
 title       - string value of job title
@@ -17,7 +16,6 @@ race        - string value selected from one of five provided choices
 
 class User(models.Model):
 
-    id = models.IntegerField(default=0)
     email = models.CharField(max_length=100)
     company = models.CharField(max_length=100)
     title = models.CharField(max_length=100)
