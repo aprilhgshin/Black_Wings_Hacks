@@ -30,17 +30,26 @@ PayItForward.Online
 
 
 ### For DEVELOPERS
-### Django with CockroachDB
-*cockroach_example* directory is set up to work with CockroachDB.
-It has a model with the fields mentioned in the doc.
-If you run the web page, you can navigate to home, about, and user page.
+#### Django with CockroachDB
 
-I followed the steps in https://www.cockroachlabs.com/docs/stable/build-a-python-app-with-cockroachdb-django.html to set up cockroachDB and connect with django.
+The *cockroach_example* directory is set up to work with CockroachDB and organize user data.
+In order to run the django application, make sure to have the following installed: 
 
-You may have to modify _settings.py_ in _cockroach_example_ directory to match your port number and username/password that is generated when you run
+psycopg2-binary
+django-cockroachdb
 
-```
-$ cockroach demo
-```
+Once the installations are set, open the Cockroach demo database to retrieve your port number, initialize a database, and set your username/password by following steps 2 to 3 in the Cockroach Lab documentation https://www.cockroachlabs.com/docs/stable/build-a-python-app-with-cockroachdb-django.html
 
-(this is explained in detail in the link)
+Modify _settings.py_ in the _cockroach_example_ directory to match the port number and username/password generated in the previous steps.
+
+Open a _new_ tab in your terminal, navigate to the _cockroach_example_ directory, and run the following commands: 
+'''
+$python3 manage.py makemigrations cockroach_example
+$python3 manage.py migrate
+$python3 manage.py runserver
+'''
+(Note: this is specified to python version 3)
+
+The terminal will then output a link to the web page. 
+Copy paste the link onto a browser to access the web page. 
+
