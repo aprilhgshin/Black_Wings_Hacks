@@ -1,0 +1,47 @@
+id,email,company,title,education,yearsExp,baseSalary,bonuses,gender,race
+1,a@g.mail,NASA JPL,Associate Software Engineer,Bachelors,2,90000,20000,female,asian
+2,b@g.mail,SpaceX,Senior Software Engineer,Bachelors,10,190000,45000,male,white
+3,c@g.mail,Apple,Data Scientist,Masters,5,130000,35000,male,black/afr
+4,d@g.mail,Google,Associate Software Engineer,Bachelors,3,120000,15000,male,asian
+5,e@g.mail,Google,Associate Software Engineer,Bachelors,4,120000,10000,female,amerInd/alaskaNat
+6,f@g.mail,SpaceX,Associate Software Engineer,Bachelors,3,140000,23000,male,black/afr
+7,g@g.mail,SpaceX,HR Recruiter,Bachelors,3,90000,15000,male,white
+8,h@g.mail,SpaceX,Software Engineer,Bachelors,5,165000,20000,male,natHawaii/pacIsland
+9,i@g.mail,NASA JPL,Associate Software Engineer,Bachelors,2,92000,20000,male,asian
+10,j@g.mail,Google,Software Engineer,Bachelors,5,145000,25000,female,black/afr
+11,k@g.mail,NASA JPL,Senior Software Engineer,Bachelors,7,140000,30000,male,black/afi
+12,l@g.mail,SpaceX,Senior Software Engineer,Masters,10,190000,45000,female,white
+13,m@g.mail,NASA JPL,Data Scientist,Masters,6,120000,24000,female,amerInd/alaskaNat
+14,n@g.mail,Google,Senior Software Engineer,Masters,8,210000,40000,female,asian
+15,o@g.mail,Google,Associate Software Engineer,Bachelors,5,120000,10000,male,white
+16,p@g.mail,SpaceX,Associate Software Engineer,Bachelors,4,140000,23000,male,black/afr
+17,q@g.mail,Google,HR Recruiter,Bachelors,2,95000,15000,female,white
+18,r@g.mail,SpaceX,Software Engineer,Bachelors,6,165000,20000,male,natHawaii/pacIsland
+19,s@g.mail,NASA JPL,Associate Software Engineer,Bachelors,3,98000,20000,female,asian
+20,t@g.mail,Google,Software Engineer,Masters,4,140000,25000,female,white
+21,h@g.mail,Google,Software Engineer,Bachelors,5,165000,20000,male,natHawaii/pacIsland
+22,i@g.mail,SpaceX,Associate Software Engineer,Bachelors,2,92000,20000,male,asian
+23,j@g.mail,NASA JPL,Software Engineer,Bachelors,5,98000,25000,female,black/afr
+24,k@g.mail,Google,Senior Software Engineer,Bachelors,7,195000,30000,male,black/afi
+25,l@g.mail,NASA JPL,Senior Software Engineer,Masters,10,185000,45000,male,white
+26,m@g.mail,SpaceX,Data Scientist,Masters,7,155000,24000,female,amerInd/alaskaNat
+27,n@g.mail,SpaceX,Senior Software Engineer,Masters,9,210000,40000,female,asian
+28,o@g.mail,Google,Software Engineer,Bachelors,5,135000,10000,female,white
+29,p@g.mail,Apple,Associate Software Engineer,Bachelors,3,120000,15000,female,asian
+30,q@g.mail,SpaceX,Associate Software Engineer,Bachelors,4,130000,10000,male,amerInd/alaskaNat
+31,r@g.mail,NASA JPL,Associate Software Engineer,Bachelors,2,84000,9000,male,black/afr
+32,s@g.mail,Apple,HR Recruiter,Bachelors,3,75000,11000,male,asian
+33,t@g.mail,SpaceX,Software Engineer,Masters,5,140000,15000,male,natHawaii/pacIsland
+34,u@g.mail,Apple,Associate Software Engineer,Bachelors,2,110000,13000,female,asian
+35,v@g.mail,Google,Senior Software Engineer,Bachelors,11,190000,32000,male,white
+36,w@g.mail,SpaceX,Data Scientist,Masters,7,140500,23000,male,black/afr
+37,x@g.mail,NASA JPL,Associate Software Engineer,Bachelors,2,91000,13000,male,natHawaii/pacIsland
+38,y@g.mail,SpaceX,Software Engineer,Bachelors,6,145000,17000,female,natHawaii/pacIsland
+39,z@g.mail,Google,Associate Software Engineer,Bachelors,2,130000,14000,male,asian
+35,v@g.mail,SpaceX,Senior Software Engineer,Bachelors,8,215000,32000,male,natHawaii/pacIsland
+36,w@g.mail,NASA JPL,Data Scientist,Masters,8,187700,24000,male,white
+37,x@g.mail,Google,Associate Software Engineer,Bachelors,1,115000,16700,male,black/afr
+38,y@g.mail,SpaceX,Software Engineer,Bachelors,5,142000,14500,female,natHawaii/pacIsland
+39,z@g.mail,NASA JPL,Associate Software Engineer,Bachelors,1,90000,12000,female,amerInd/alaskaNat
+40,aa@g.mail,Google,Senior Software Engineer,Bachelors,11,170000,21000,female,asian
+41,ab@g.mail,Google,Senior Software Engineer,Bachelors,8,190000,23000,male,white
