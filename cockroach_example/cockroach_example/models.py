@@ -6,7 +6,6 @@ class User(models.Model):
     # define different fields:
     email = models.CharField(max_length=100) # can have arg max_length = 100
     company = models.CharField(max_length=100)
-    state = models.CharField(max_length=100)
     title = models.CharField(max_length=100)
     education = models.CharField(max_length=100)
     yearsExp = models.IntegerField(default=0)

@@ -14,9 +14,9 @@ from dash.dependencies import Input, Output
 # Parameters for connection 
 param_dic = {
     "host"      : "localhost",
-    "database"  : "testing",
-    "user"      : "postgres",
-    "password"  : "mMhatrARMIE12$"
+    "database"  : "cockroachdb",
+    "user"      : "member",
+    "password"  : "blackwings"
 }
 
 def connect(params_dic):
