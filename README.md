@@ -8,6 +8,8 @@ https://www.businessinsider.com/gender-wage-pay-gap-charts-2017-3
 ## What it does
 Our webapp combats the wage gap by providing salary info that takes into account demographic information as well as job title, location, level of experience, and company. People can come to the site to identify what companies and locations have balanced wages. Additionally, they can use the information from the site to help with negotiating their salary, especially if they see discrepancies that may be the result of demographic bias. Our users will be able to _pay it forward_ (pun intended) by anonymously reporting their salary, employment, and demographic info whenever they have a new job or promotion. 
 
+<img src="images/dataset_black.png" />
+
 ## How we built it
 The front end was built using React.js and the backend was built using python, Django, and CockroachDB.
 
