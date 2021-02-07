@@ -1,4 +1,5 @@
 # Black_Wings_Hacks
+<img src="./images/GapShift_01.png">
 ## Inspiration
 The gender wage gap still exists in the US (and beyond). According to Business Insider, on average a woman working full time in 2018 made 81.6 cents for every dollar a man working full time made. The wage gap is even wider when accounting for race; Black women make just 66% of what white men make and Hispanic women make just 58%. The pay gap is also more severe in certain locations.
 https://www.businessinsider.com/gender-wage-pay-gap-charts-2017-3
@@ -34,8 +35,10 @@ If you run the web page, you can navigate to home, about, and user page.
 
 I followed the steps in https://www.cockroachlabs.com/docs/stable/build-a-python-app-with-cockroachdb-django.html to set up cockroachDB and connect with django.
 
-You may have to modify *settings.py* in *cockroach_example* directory to match your port number and username/password that is generated when you run
+You may have to modify _settings.py_ in _cockroach_example_ directory to match your port number and username/password that is generated when you run
+
 ```
 $ cockroach demo
 ```
+
 (this is explained in detail in the link)
