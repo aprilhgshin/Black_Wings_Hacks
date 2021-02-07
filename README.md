@@ -58,4 +58,4 @@ $python3 manage.py runserver
 The terminal will then output a link to the web page. 
 Copy paste the link onto a browser to access the web page. 
 
-You may copy paste the SQL commands from _example_data.sql_ in the _cockroach_example_ directory to test the initialized cockroachDB database.
+You may copy paste the SQL commands from _example_data.sql_ in the _cockroach_example_ directory into the Cockroach demo (first terminal tab opened) to test the initialized cockroachDB database.
