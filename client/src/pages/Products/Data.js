@@ -19,7 +19,7 @@ export const homeObjTwo = {
   lightTopLine: true,
   lightTextDesc: true,
   topLine: '100% Secure',
-  headline: 'You will remain anoymous and protected 24/7',
+  headline: 'You will remain anonymous and protected 24/7',
   description:
     'We have you covered - gapShift is mobile-friendly and works on any screen size',
   buttonLabel: 'Learn More',
