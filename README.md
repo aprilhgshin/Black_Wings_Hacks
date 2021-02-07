@@ -35,19 +35,21 @@ PayItForward.Online
 The *cockroach_example* directory is set up to work with CockroachDB and organize user data.
 In order to run the django application, make sure to have the following installed: 
 
-psycopg2-binary
-django-cockroachdb
+- psycopg2-binary
+- django-cockroachdb
 
-Once the installations are set, open the Cockroach demo database to retrieve your port number, initialize a database, and set your username/password by following steps 2 to 3 in the Cockroach Lab documentation https://www.cockroachlabs.com/docs/stable/build-a-python-app-with-cockroachdb-django.html
+Once the installations are set, open the Cockroach demo database to retrieve your port number, initialize a database, and set your username/password by following steps 2 to 3 in the Cockroach Lab documentation - https://www.cockroachlabs.com/docs/stable/build-a-python-app-with-cockroachdb-django.html
 
 Modify _settings.py_ in the _cockroach_example_ directory to match the port number and username/password generated in the previous steps.
 
 Open a _new_ tab in your terminal, navigate to the _cockroach_example_ directory, and run the following commands: 
+
 '''
 $python3 manage.py makemigrations cockroach_example
 $python3 manage.py migrate
 $python3 manage.py runserver
 '''
+
 (Note: this is specified to python version 3)
 
 The terminal will then output a link to the web page. 
