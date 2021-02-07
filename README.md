@@ -1,5 +1,6 @@
 # Black_Wings_Hacks
 <img src="./images/GapShift_01.png">
+
 ## Inspiration
 The gender wage gap still exists in the US (and beyond). According to Business Insider, on average a woman working full time in 2018 made 81.6 cents for every dollar a man working full time made. The wage gap is even wider when accounting for race; Black women make just 66% of what white men make and Hispanic women make just 58%. The pay gap is also more severe in certain locations.
 https://www.businessinsider.com/gender-wage-pay-gap-charts-2017-3
