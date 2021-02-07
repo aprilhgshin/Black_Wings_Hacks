@@ -32,6 +32,15 @@ JustKeepingItReal.Online
 
 
 ## For DEVELOPERS
+
+### Running the React App
+
+Navigate to the client directory and run: 
+```
+npm i
+npm start
+```
+
 #### Django with CockroachDB
 
 The *cockroach_example* directory is set up to work with CockroachDB, organize user input data, and, when complete, run the gapShift web application.
